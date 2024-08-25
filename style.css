@@ -1,0 +1,61 @@
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px 5px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#searchInput {
+
+    width: 75%;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button-wrapper {
+    margin: 10px 0px;
+}
+
+#searchButton {
+
+    margin-right: 3px;
+    width: 110px;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: blueviolet;
+}
+
+#clearButton {
+    margin-left: 3px;
+    width: 110px;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(43, 226, 128);
+}
+
+.photoList-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card {
+    margin: 20px;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding: 10px;
+
+
+
+}
